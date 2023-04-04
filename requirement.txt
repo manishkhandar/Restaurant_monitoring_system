@@ -1,0 +1,8 @@
+django
+djangorestframework
+SQLAlchemy
+flask_sqlalchemy
+pandas
+pytz
+secrets
+datetime
