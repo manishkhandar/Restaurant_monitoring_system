@@ -20,7 +20,7 @@ To start the server, run the following command in the project directory:
   * report_id will be used for polling the status of report completion
   
 * api/get_report/
-  * Input parmas - report_id
+  * Input params - report_id
   * Output
     - if report generation is not complete, return “Running” as the output
     - if report generation is complete, return “Complete” along with the CSV file with the schema described above.

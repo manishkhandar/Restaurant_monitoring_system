@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Files</title>
+</head>
+<body style="margin=100px">
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <h1 style="color:red">NOTE : Kindly upload all three files</h1>
+        <label for="myfile1">CSV data for status of Store:</label>
+        <input type="file" id="myfile1" name="myfile1"><br><br>
+        <label for="myfile2">CSV data for business hour for Store:</label>
+        <input type="file" id="myfile2" name="myfile2"><br><br>
+        <label for="myfile3">CSV data for Timezone of Store:</label>
+        <input type="file" id="myfile3" name="myfile3"><br><br>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
